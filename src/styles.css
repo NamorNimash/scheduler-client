@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+th,
+tr {
+  width: 15rem;
+}
+
+th {
+  text-align: center !important;
+}
