@@ -4,7 +4,7 @@ import { HTMLTable } from "@blueprintjs/core";
 
 const mainTable = () => {
   return (
-    <HTMLTable bordered>
+    <HTMLTable bordered interactive striped>
       <thead>
         <tr>
           <th>Проект</th>
@@ -16,11 +16,7 @@ const mainTable = () => {
       </thead>
       <tbody>
         <tr>
-          <td>Проект1</td>
-          <td>Название первой задачи</td>
-          <td />
-          <td>Остановлена</td>
-          <td>Запустить</td>
+          <td>Create Task</td>
         </tr>
         <tr>
           <td>Проект2</td>
